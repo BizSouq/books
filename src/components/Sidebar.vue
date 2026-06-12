@@ -144,23 +144,6 @@
       </button>
 
       <button
-        data-testid="change-db"
-        class="
-          flex
-          text-sm text-gray-600
-          dark:text-gray-500
-          hover:text-gray-800
-          dark:hover:text-gray-400
-          gap-1
-          items-center
-        "
-        @click="$emit('change-db-file')"
-      >
-        <feather-icon name="database" class="h-4 w-4 flex-shrink-0" />
-        <p>{{ t`Change DB` }}</p>
-      </button>
-
-      <button
         class="
           flex
           text-sm text-gray-600
